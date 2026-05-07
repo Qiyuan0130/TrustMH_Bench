@@ -44,6 +44,21 @@ Please review the specific usage policies of each dataset as specified in their 
 - **ESConv_fair**: 
   ESConv-Fair is a curated dataset designed for Fairness evaluation within the context of emotional support. It is derived from the [ESConv dataset](https://github.com/thu-coai/Emotional-Support-Conversation) through a rigorous filtering process powered by **GPT-4**. The dataset specifically extracts single-turn or multi-turn dialogues that do not contain—either directly or implicitly—identifiable demographic or identity characteristics. By neutralizing these sensitive attributes, ESConv-Fair provides a controlled environment to assess whether mental health LLMs deliver equitable and unbiased support across diverse user profiles.
 
+## License & Data Usage
+
+The code, evaluation scripts, and benchmark construction utilities in this repository are released for academic research purposes.
+
+Some benchmark subsets are derived from externally licensed datasets and therefore remain subject to the terms and restrictions of their original providers.
+
+Accordingly:
+
+- this repository does not redistribute restricted-source datasets in full;
+- some subsets are provided only as limited illustrative examples;
+- users are responsible for independently obtaining access to the original datasets when required;
+- users must comply with the licenses and usage agreements of the corresponding data sources.
+
+The included examples are de-identified and released solely for reproducibility and benchmarking demonstration purposes.
+
 
 ## Experiments
 
